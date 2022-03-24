@@ -1,0 +1,19 @@
+h1 {
+  color: violet;
+}
+
+.error {
+  color: red;
+  background-color: black;
+  border: 2px solid red;
+}
+
+#primerParrafo {
+  color: blue;
+  background-color: rgb(221, 203, 181);
+  border: 2px solid green;
+}
+
+body {
+  background-image: url(/img/paisaje.jpg);
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulario de Registro</title>
+    <style>
+        *{margin:auto; font-family:Verdana, Geneva, Tahoma, sans-serif}
+    </style>
+</head>
+
+<body>
+    <h1>Formulario de Registro</h1>
+
+    <label for="">Nombre:</label><br>
+    <input type="text" name="nombre"><br><br>
+
+    <label for="">Apellido:</label><br>
+    <input type="text" name="apellido"><br><br>
+
+    <label for="">Fecha de Nacimiento:</label><br>
+    <input type="date" min="1980-01-01" max="2022-03-23"><br><br>
+
+    <label for="">Sexo:</label><br>
+    <input type="radio" name="sexo" value="masculino" checked>Masculino<br>
+    <input type="radio" name="sexo" value="femenino">Femenino<br>
+    <input type="radio" name="sexo" value="otro">Otro<br><br>
+
+    <label for="">Observaciones:</label><br>
+    <textarea name="parteMedico" id="" cols="30" rows="10"></textarea><br><br>
+
+    <label for="">Adjuntar foto de perfil:</label>
+    <input type="file"><br><br>
+
+    <label for="">Edad:</label><br>
+    <input type="number" min="18" max="99"><br><br>
+
+    <label for="">Telefono:</label><br>
+    <input type="number"><br><br>
+
+    <label for="">Email:</label><br>
+    <input type="email"><br><br>
+
+    <button type="submit" name="submit" value="registrar">Registrar</button>
+
+</body>
+
+</html>

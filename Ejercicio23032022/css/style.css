@@ -1,0 +1,26 @@
+*{
+    background-color: aquamarine;
+    color: blue;
+}
+
+h1{
+    color: red;
+}
+
+h3{
+    color: rgb(143, 8, 8);
+}
+
+.primerLista{
+    color: green;
+}
+
+b{
+    font-size: 20px;
+}
+
+i{
+    background-color:black;
+    font-size: 20px;
+    color: white;
+}
